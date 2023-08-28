@@ -1,0 +1,43 @@
+@media (min-width: 768px) {
+    #gradientBackground {
+        top: -32rem;
+    }
+
+    #contentWrapper {
+        height: 90vh;
+    }
+}
+
+@media (max-width: 768px) {
+    #customLabelModal-fill {
+        display: none !important;
+    }
+
+    #customLabelModal-content {
+        margin-bottom: 0.75rem;
+    }
+}
+
+html,
+body {
+    scroll-behavior: smooth;
+}
+
+input,
+select {
+    box-sizing: border-box !important;
+    -moz-box-sizing: border-box !important;
+    -webkit-box-sizing: border-box !important;
+}
+
+select {
+    height: 36px;
+}
+
+.scroll::-webkit-scrollbar {
+    display: none !important;
+}
+
+.scroll {
+    scrollbar-width: none;
+}
