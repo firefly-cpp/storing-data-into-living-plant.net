@@ -1,0 +1,10 @@
+name: biocache
+
+services:
+  biocache:
+    container_name: biocache
+    build:
+      context: ./frontend
+      dockerfile: Dockerfile
+    ports:
+      - 3000:3000
