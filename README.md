@@ -4,7 +4,7 @@
 <h1 align="center">BioCache</h1>
 
 ## About
-Step into the realm of unprecedented opportunities by encoding regular text into DNA sequences, unveiling a novel method of data representation. 🚀 Using a sophisticated process, each character in the text is meticulously translated into a specific arrangement of nucleotides, constructing a distinct genetic code that captures the essence of the original message.  
+Step into the realm of unprecedented opportunities by encoding regular text into DNA sequences, unveiling a novel method of data representation. 🚀 Using a sophisticated process, each character in the text is meticulously translated into a specific arrangement of nucleotides, constructing a distinct genetic code that captures the essence of the original message. 🧬  
 
 Join us in exploring the convergence of information technology and biotechnology, where your words are not just text, but vital seeds in the garden of life. 🌿🔬  
 
@@ -28,6 +28,12 @@ To install the application, clone the repository and install nodemon by executin
 
 ```bash
 npm install -g nodemon
+```
+
+Afterwards, execute the following command inside the ``frontend`` directory to install the required dependencies:
+
+```bash
+npm install
 ```
 
 Alternatively, the application can be installed using Docker by executing the following command:
