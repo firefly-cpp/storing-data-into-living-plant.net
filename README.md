@@ -36,7 +36,7 @@ Afterwards, execute the following command inside the ``frontend`` directory to i
 npm install
 ```
 
-Alternatively, the application can be installed using Docker by executing the following command:
+Alternatively, the application can be installed using Docker by executing the following command in the root directory:
 ```bash
 docker compose build
 ```
@@ -47,7 +47,7 @@ Execute the following command inside the ``frontend`` directory to launch the ap
 nodemon index.js
 ```
 
-Alternatively, the application can be launched using Docker by executing the following command:
+Alternatively, the application can be launched using Docker by executing the following command in the root directory:
 ```bash
 docker compose up
 ```

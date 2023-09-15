@@ -21,23 +21,16 @@ function changeMethod() {
 
 function encode() {
     //  Parse data
-    const method = document.getElementById('method').value;
-    const key = document.getElementById('compression_key').value;
     const text = document.getElementById('custom_text').value;
 
     //  Error handling
-    if (text === '' || method === '') {
+    if (text === '') {
         toggleModal('encodeMissingDataModal');
-        return;
-    }
-    if (method === 'compression1' && key === '') {
-        toggleModal('missingKeyModal');
         return;
     }
 
     //  Encode
-    let sequence;
-    if (method === 'classic') sequence = classicEncoding(text);
+    const sequence = classicEncoding(text);
 
     //  Display sequence
     document.getElementById('sequence').value = sequence;
@@ -45,23 +38,16 @@ function encode() {
 
 function decode() {
     //  Parse data
-    const method = document.getElementById('method').value;
-    const key = document.getElementById('compression_key').value;
     const sequence = document.getElementById('sequence').value;
 
     //  Error handling
-    if (sequence === '' || method === '') {
+    if (sequence === '') {
         toggleModal('decodeMissingDataModal');
-        return;
-    }
-    if (method === 'compression1' && key === '') {
-        toggleModal('missingKeyModal');
         return;
     }
 
     //  Decode
-    let text;
-    if (method === 'classic') text = classicDecoding(sequence);
+    const text = classicDecoding(sequence);
 
     //  Display text
     document.getElementById('custom_text').value = text;
