@@ -53,3 +53,9 @@ docker compose up
 ```
 
 Application's user interface is available at [localhost:3000](http://localhost:3000).
+
+# References
+
+Fister, K., Fister, I., Murovec, J., & Bohanec, B. (2017). DNA labelling of varieties covered by patent protection: a new solution for managing intellectual property rights in the seed industry. Transgenic research, 26, 87-95.
+
+Fister, K., Fister, I., & Murovec, J. (2017). The potential of plants and seeds in DNA-based information storage. Understanding Information: From the Big Bang to Big Data, 69-81.
