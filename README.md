@@ -8,8 +8,6 @@ Step into the realm of unprecedented opportunities by encoding regular text into
 
 Join us in exploring the convergence of information technology and biotechnology, where your words are not just text, but vital seeds in the garden of life. 🌿🔬  
 
-Embrace the future of information manipulation with our powerful and engaging solution. 🔮  
-
 ## Detailed insights
 The current version comes packed with exciting features, including:
 * **Encoding** 🧬📝<br />
@@ -56,6 +54,6 @@ Application's user interface is available at [localhost:3000](http://localhost:3
 
 # References
 
-Fister, K., Fister, I., Murovec, J., & Bohanec, B. (2017). DNA labelling of varieties covered by patent protection: a new solution for managing intellectual property rights in the seed industry. Transgenic research, 26, 87-95.
+Fister, K., Fister, I., Murovec, J., & Bohanec, B. (2017). [DNA labelling of varieties covered by patent protection: a new solution for managing intellectual property rights in the seed industry](https://link.springer.com/article/10.1007/s11248-016-9981-1). Transgenic research, 26, 87-95.
 
-Fister, K., Fister, I., & Murovec, J. (2017). The potential of plants and seeds in DNA-based information storage. Understanding Information: From the Big Bang to Big Data, 69-81.
+Fister, K., Fister, I., & Murovec, J. (2017). [The potential of plants and seeds in DNA-based information storage](https://link.springer.com/chapter/10.1007/978-3-319-59090-5_4). Understanding Information: From the Big Bang to Big Data, 69-81.
