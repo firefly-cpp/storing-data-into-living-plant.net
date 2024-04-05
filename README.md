@@ -22,6 +22,7 @@ With our application, you can plant custom text into a DNA sequence and watch it
 * [Docker](https://www.docker.com)
 
 ## Installation
+### Node
 To install the application, clone the repository and install nodemon by executing the following command:
 
 ```bash
@@ -34,23 +35,34 @@ Afterwards, execute the following command inside the ``frontend`` directory to i
 npm install
 ```
 
-Alternatively, the application can be installed using Docker by executing the following command in the root directory:
+### Docker
+The application can be installed using Docker by executing the following command in the root directory:
 ```bash
 docker compose build
 ```
 
+Alternatively, the application can be installed using the following command:
+```bash
+docker pull codeberg.org/firefly-cpp/storing-data-into-living-plant.net/storing-data:latest
+```
+
 ## Usage
+### Node
 Execute the following command inside the ``frontend`` directory to launch the application:
 ```bash
 nodemon index.js
 ```
 
-Alternatively, the application can be launched using Docker by executing the following command in the root directory:
+### Docker
+The application can be launched using Docker by executing the following command in the root directory:
 ```bash
 docker compose up
 ```
 
-Application's user interface is available at [localhost:3000](http://localhost:3000).
+Alternatively, the application can be launched using the following command:
+```bash
+docker run -p 3000:3000 codeberg.org/firefly-cpp/storing-data-into-living-plant.net/storing-data:latest
+```
 
 # References
 
